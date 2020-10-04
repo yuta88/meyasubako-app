@@ -69,5 +69,6 @@ yarn-debug.log*
 /public/uploads
 
 # add
-config/environments
-config/initializers/devise.rb
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
