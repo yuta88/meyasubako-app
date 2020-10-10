@@ -67,7 +67,3 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
-
-# add
-config/environments
-config/initializers/devise.rb
