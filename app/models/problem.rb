@@ -6,6 +6,7 @@ class Problem < ApplicationRecord
   
   # validation
   validates_presence_of :user_id, :text
+  validates :text, {length: {maximum: 100}}
   
   # callback
   after_create :create_feed_content
