@@ -1,6 +1,9 @@
 <div class="post-form">
   <%= form_for(@problem) do |f| %>
-    <%= f.text_field :text, placeholder: "例）雨予報だったのに傘を忘れた" %>
-    <%= f.submit "投稿" %>
+    <%= f.text_field :text, class: 'row-1st js-text', placeholder: "例）雨予報だったのに傘を忘れた" %>
+    <div class="row-2nd">
+      <p class="js-text-count"></p>
+      <%= f.submit "投稿" %>
+    </div>
   <% end %>
 </div>
